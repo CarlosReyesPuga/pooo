@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Scene xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.RecursosSTR.Base_De_DatosController">
+<AnchorPane id="AnchorPane" prefHeight="465.0" prefWidth="600.0" style="-fx-background-color: #0099FF;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="Tabla_Administrador" layoutX="10.0" layoutY="59.0" prefHeight="348.0" prefWidth="581.0" style="-fx-base: #003399; -fx-control-inner-background: #003399;-fx-background-color: #003399; -fx-table-cell-border-color: transparent; -fx-table-header-border-color: transparent; -fx-padding: 5;" >
+        <columns>
+          <TableColumn fx:id="column_clave" prefWidth="154.0" style="-fx-font-family: Segoe UI Semibold; -fx-text-fill: white;" text="Clave" />
+          <TableColumn fx:id="column_nombre" prefWidth="132.0" style="-fx-font-family: Segoe UI Semibold; -fx-text-fill: white;" text="Nombre" />
+            <TableColumn fx:id="column_tipo" prefWidth="109.0" style="-fx-font-family: Segoe UI Semibold; -fx-text-fill: white;" text="Tipo" />
+            <TableColumn fx:id="column_precio" prefWidth="87.0" style="-fx-font-family: Segoe UI Semibold; -fx-text-fill: white;" text="Precio" />
+            <TableColumn fx:id="column_existencia" prefWidth="98.0" style="-fx-font-family: Segoe UI Semibold; -fx-text-fill: white;" text="Existencia" />
+        </columns>
+      </TableView>
+      <Button fx:id="salir" layoutX="537.0" layoutY="14.0" mnemonicParsing="false" onAction="#Salir_Ventana" style="-fx-background-color: transparent; -fx-text-fill: white;" text="Salir" />
+      <Button fx:id="agregar" layoutX="10.0" layoutY="420.0" mnemonicParsing="false" onAction="#Agregar_Datos" style="-fx-background-color: transparent; -fx-text-fill: white;" text="Agregar Producto" />
+      <Button fx:id="eliminar" layoutX="231.0" layoutY="420.0" mnemonicParsing="false" onAction="#eliminar_Datos" style="-fx-background-color: transparent; -fx-text-fill: white;" text="Eliminar Producto" />
+      <Button fx:id="modificar" layoutX="438.0" layoutY="420.0" mnemonicParsing="false" onAction="#Modificar_Datos" style="-fx-background-color: transparent; -fx-text-fill: white;" text="Modificar Producto" />
+      <Button fx:id="btn_tabla_clientes" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#Ingresar_tabla_clientes" text="Tabla clientes" style="-fx-background-color: transparent; -fx-text-fill: white;" />
+      <Button fx:id="btn_tabla_usuarios" layoutX="137.0" layoutY="14.0" mnemonicParsing="false" onAction="#Ingresar_tabla_usuarios" text="Tabla usuarios" style="-fx-background-color: transparent; -fx-text-fill: white;" />
+   </children>
+</AnchorPane>
+</Scene>

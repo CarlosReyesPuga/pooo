@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Scene xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.RecursosSTR.LoginController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="262.0" style="-fx-background-color: #0000FF;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="txt_usuario" layoutX="38.0" layoutY="146.0" promptText="Usuario" style="-fx-font-family: Georgia; -fx-font-style: italic; -fx-background-color: #99CCFF;" />
+      <TextField fx:id="txt_password" layoutX="37.0" layoutY="217.0" promptText="Contraseña" style="-fx-font-family: Georgia; -fx-font-style: italic; -fx-background-color: #99CCFF;" />
+         <Text layoutX="29.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" textAlignment="CENTER" wrappingWidth="201.80419921875">
+         <font>
+            <Font name="Javanese Text" size="36.0" />
+         </font></Text>
+         <Button fx:id="ingresar" layoutX="94.0" layoutY="290.0" mnemonicParsing="false" onAction="#Ingresar_Datos" style="-fx-background-color: #99CCFF; -fx-text-fill: #000000;" text="Acceder" />
+      </children>
+</AnchorPane>
+</Scene>

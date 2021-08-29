@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Scene xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.RecursosSTR.Caja_registradoraController">
+<AnchorPane id="AnchorPane" prefHeight="525.0" prefWidth="600.0" style="-fx-background-color: #0099FF;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Button fx:id="btn_pago" layoutX="14.0" layoutY="480.0" mnemonicParsing="false" onAction="#cobrar_producto" style="-fx-background-color: #99CCFF; -fx-text-fill: #000000;" text="Cobrar" />
+        <Button fx:id="btn_agregar" layoutX="448.0" layoutY="480.0" mnemonicParsing="false" onAction="#agregar_producto"  style="-fx-background-color: #99CCFF; -fx-text-fill: #000000;" text="Agregar producto" />
+        <TableView fx:id="tabla_productos" layoutX="14.0" layoutY="76.0" prefHeight="374.0" prefWidth="573.0" style="-fx-base: #003399; -fx-control-inner-background: #003399;-fx-background-color: #003399; -fx-table-cell-border-color: transparent; -fx-table-header-border-color: transparent; -fx-padding: 5;" >
+          <columns>
+            <TableColumn fx:id="colum_clave" prefWidth="165.0" style="-fx-font-family: Segoe UI Semibold; -fx-text-fill: white;" text="Clave" />
+            <TableColumn fx:id="column_producto" prefWidth="191.0" style="-fx-font-family: Segoe UI Semibold; -fx-text-fill: white;" text="Producto" />
+              <TableColumn fx:id="column_tipo" prefWidth="110.0" style="-fx-font-family: Segoe UI Semibold; -fx-text-fill: white;" text="Renta/Compra" />
+              <TableColumn fx:id="column_precio" prefWidth="106.0" style="-fx-font-family: Segoe UI Semibold; -fx-text-fill: white;" text="Precio" />
+          </columns>
+        </TableView>
+        <Button fx:id="btn_eliminar" layoutX="365.0" layoutY="480.0" mnemonicParsing="false" onAction="#eliminar_producto" style="-fx-background-color: #99CCFF; -fx-text-fill: #000000;" text="Eliminar" />
+        <TextField fx:id="txt_clave" layoutX="14.0" layoutY="35.0" style="-fx-font-family: Georgia; -fx-font-style: italic; -fx-background-color: #99CCFF;" />
+        <Text layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clave del cliente:" />
+      <Button fx:id="btn_entrega" layoutX="93.0" layoutY="480.0" mnemonicParsing="false" onAction="#Agregar_Entrega" style="-fx-background-color: #99CCFF; -fx-text-fill: #000000;" text="Entrega" />
+    </children>
+  </AnchorPane>
+</Scene>

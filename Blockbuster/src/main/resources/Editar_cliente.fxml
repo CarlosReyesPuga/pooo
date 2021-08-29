@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Scene xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.RecursosSTR.Editar_clienteController">
+<AnchorPane id="AnchorPane" prefHeight="345.0" prefWidth="546.0" style="-fx-background-color: #0000FF;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.2" >
+	<children>
+      <TextField disable="true" layoutX="14.0" layoutY="69.0" prefHeight="31.0" prefWidth="224.0" style="-fx-font-family: Georgia; -fx-font-style: italic; -fx-background-color: #99CCFF;" />
+      <TextField layoutX="271.0" layoutY="69.0" prefHeight="31.0" prefWidth="258.0" style="-fx-font-family: Georgia; -fx-font-style: italic; -fx-background-color: #99CCFF;" />
+      <TextField layoutX="14.0" layoutY="208.0" prefHeight="31.0" prefWidth="224.0" style="-fx-font-family: Georgia; -fx-font-style: italic; -fx-background-color: #99CCFF;" />
+      <TextField layoutX="274.0" layoutY="208.0" prefHeight="31.0" prefWidth="53.0" style="-fx-font-family: Georgia; -fx-font-style: italic; -fx-background-color: #99CCFF;" />
+      <Button layoutX="210.0" layoutY="285.0" mnemonicParsing="false" style="-fx-background-color: #99CCFF; -fx-text-fill: #000000;" text="Editar cliente" />
+      <TextField layoutX="14.0" layoutY="132.0" prefHeight="31.0" prefWidth="519.0" style="-fx-font-family: Georgia; -fx-font-style: italic; -fx-background-color: #99CCFF;" />
+      <Text layoutX="14.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clave del cliente:" />
+      <Text layoutX="274.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre del cliente:" />
+      <Text layoutX="14.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Direccion del cliente:" />
+      <Text layoutX="14.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nivel de jerarquia:" />
+      <Text layoutX="274.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edad:" />
+  </children>
+</AnchorPane>
+</Scene>

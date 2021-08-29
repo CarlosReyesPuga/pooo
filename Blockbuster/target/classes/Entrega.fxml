@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Scene xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.RecursosSTR.EntregaController">
+<AnchorPane id="AnchorPane" prefHeight="289.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="Lista" layoutX="5.0" layoutY="33.0" prefHeight="200.0" prefWidth="530.0" style="-fx-base: #003399; -fx-control-inner-background: #003399;-fx-background-color: #003399; -fx-table-cell-border-color: transparent; -fx-table-header-border-color: transparent; -fx-padding: 5;">
+        <columns>
+          <TableColumn fx:id="column_codigo" prefWidth="127.0" style="-fx-font-family: Segoe UI Semibold; -fx-text-fill: white;" text="Codigo" />
+          <TableColumn fx:id="column_emision" prefWidth="136.0" style="-fx-font-family: Segoe UI Semibold; -fx-text-fill: white;" text="Fecha de emision" />
+            <TableColumn fx:id="column_clave" prefWidth="103.0" style="-fx-font-family: Segoe UI Semibold; -fx-text-fill: white;" text="Clave usuario" />
+            <TableColumn fx:id="column_entrega" prefWidth="163.0" style="-fx-font-family: Segoe UI Semibold; -fx-text-fill: white;" text="Fecha entrega" />
+        </columns>
+      </TableView>
+      <Button fx:id="btn_seleccionar" layoutX="14.0" layoutY="244.0" mnemonicParsing="false" onAction="#seleccionar" style="-fx-background-color: #99CCFF; -fx-text-fill: #000000;" text="Seleccionar" />
+   </children>
+</AnchorPane>
+</Scene>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Scene xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.RecursosSTR.Agregar_productosController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" style="-fx-background-color: #0000FF;" xmlns="http://javafx.com/javafx/11.0.2">
+   <children>
+      <Accordion layoutX="67.0" layoutY="47.0" />
+      <TextField fx:id="txt_clave" layoutX="14.0" layoutY="47.0" prefHeight="31.0" prefWidth="268.0" style="-fx-font-family: Georgia; -fx-font-style: italic; -fx-background-color: #99CCFF;" />
+      <TextField fx:id="txt_nombre" layoutX="300.0" layoutY="47.0" prefHeight="31.0" prefWidth="282.0" style="-fx-font-family: Georgia; -fx-font-style: italic; -fx-background-color: #99CCFF;" />
+      <TextField fx:id="txt_tipo" layoutX="14.0" layoutY="127.0" prefHeight="31.0" prefWidth="232.0" style="-fx-font-family: Georgia; -fx-font-style: italic; -fx-background-color: #99CCFF;" />
+      <Text layoutX="14.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clave del producto:" />
+      <Text layoutX="300.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre del producto:" />
+      <Text layoutX="14.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tipo de producto(Renta/Venta):" />
+      <TextField fx:id="txt_precio" layoutX="399.0" layoutY="127.0" style="-fx-font-family: Georgia; -fx-font-style: italic; -fx-background-color: #99CCFF;" />
+      <Text layoutX="399.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Precio:" />
+      <TextField fx:id="txt_existencia" layoutX="14.0" layoutY="200.0" prefHeight="31.0" prefWidth="148.0" style="-fx-font-family: Georgia; -fx-font-style: italic; -fx-background-color: #99CCFF;" />
+      <Text layoutX="14.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Existencia:" />
+      <Button fx:id="agregar" layoutX="223.0" layoutY="293.0" mnemonicParsing="false" onAction="#agregar_datos" style="-fx-background-color: #99CCFF; -fx-text-fill: #000000;" text="Agregar Producto" />
+   </children>
+</AnchorPane>
+</Scene>
